@@ -12,6 +12,10 @@ A button that hide/show all the open windows on desktop.
 
 If you'd like to help translate the extension, download and edit `show-desktop-button.pot` using, for example, `Poedit`, then send me the `.po` file.
 
+[Fork changes]
+Added translation to pt_BR.
+Centered icon after o befor the date menu.
+
 
 ## Version history
 

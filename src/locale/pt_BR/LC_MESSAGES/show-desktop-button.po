@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: Jimmy Scionti <jimmy.scionti@gmail.com>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Adjust left and right padding of the indicator"
+msgstr "Ajusta o espaçamento à esquerda e à direita do indicador"
+
+msgid "Aspect"
+msgstr "Aspecto"
+
+msgid "Behaviour"
+msgstr "Comportamento"
+
+msgid "Center-left"
+msgstr "Centro-esquerda"
+
+msgid "Center-right"
+msgstr "Centro-direita"
+
+msgid "Click to assign shortcut"
+msgstr "Clique para atribuir um atalho"
+
+msgid "Click to change icon"
+msgstr "Clique para alterar o ícone"
+
+msgid "Click to reset the default icon"
+msgstr "Clique para redefinir para o ícone padrão"
+
+msgid "Click to set shortcut"
+msgstr "Clique para atribuir o atalho"
+
+msgid "Delay before preview is activated"
+msgstr "Atraso antes da ativação da pré-visualização"
+
+msgid "Display an icon on the panel indicator"
+msgstr "Exibir um ícone no indicador do painel"
+
+msgid "Do not hide the focused window"
+msgstr "Não oculta a janela em foco"
+
+msgid "Edit Settings shortcut"
+msgstr "Alterar configurações de atalho"
+
+msgid "Far Left"
+msgstr "Extremo esquerda"
+
+msgid "Far Right"
+msgstr "Extremo direita"
+
+msgid "Hover Preview"
+msgstr "Pré-visualização ao passar o cursor"
+
+msgid "Icon"
+msgstr "Ícone"
+
+msgid ""
+"Icon file used for the panel indicator.\n"
+"Icons must be located in one of the following paths:\n"
+msgstr ""
+"Arquivo de ícone usado para o indicador do painel.\n"
+"Os ícones devem estar localizados em um dos seguintes diretórios:\n"
+
+msgid "Internal shortcut automatically populated using Settings shortcut"
+msgstr "Atalho interno preenchido automaticamente usando o atalho de Configurações"
+
+msgid "Keep Focused Window"
+msgstr "Manter a janela em foco"
+
+msgid "Keyboard > Navigation > Hide all normal windows"
+msgstr "Teclado > Navegação > Ocultar todas as janelas normais"
+
+msgid "Lateral Padding"
+msgstr "Espaçamento lateral"
+
+msgid "Left"
+msgstr "Esquerda"
+
+msgid "Position of the indicator on the panel"
+msgstr "Posição do indicador no painel"
+
+msgid "Position on Panel"
+msgstr "Posição no painel"
+
+msgid "Preview"
+msgstr "Pré-visualização"
+
+msgid "Preview Delay"
+msgstr "Atraso da pré-visualização"
+
+msgid "Remove shortcut"
+msgstr "Remover atalho"
+
+msgid "Right"
+msgstr "Direita"
+
+msgid "Select an SVG for the Panel Indicator"
+msgstr "Selecione um SVG para o indicador do painel"
+
+msgid "Shortcut"
+msgstr "Atalho"
+
+msgid "Show Icon"
+msgstr "Mostrar ícone"
+
+msgid "SVG Images"
+msgstr "Imagens SVG"
+
+msgid "Windows Opacity"
+msgstr "Opacidade das janelas"
+
+msgid "Windows becomes transparent when hovering the panel indicator"
+msgstr "As janelas tornam-se transparentes ao passar o cursor sobre o indicador do painel"
+
+msgid "Windows opacity during preview"
+msgstr "Opacidade das janelas durante a pré-visualização"
