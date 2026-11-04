@@ -141,6 +141,7 @@ export default class ShowDesktopExtension extends Extension {
 	           c instanceof DateMenu.DateMenuButton
 	    );
 
+		//Centered after or before the date menu. This prevents that the icon show on wrong position after user system suspend and login again.
 	    if (dateMenuIndex !== -1 && position[index] == 'center') {
 	      Main.panel.addToStatusArea(`${this.metadata.name} Indicator`, this._indicator, dateMenuIndex + qualifier[index], position[index]);
 	    } else {
