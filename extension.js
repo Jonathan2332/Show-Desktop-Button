@@ -8,6 +8,7 @@ import Gio from 'gi://Gio';
 
 import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 import * as PanelMenu from 'resource:///org/gnome/shell/ui/panelMenu.js';
+import * as DateMenu from 'resource:///org/gnome/shell/ui/dateMenu.js';
 import { Extension } from 'resource:///org/gnome/shell/extensions/extension.js';
 
 const ShowDesktopButton = GObject.registerClass(
@@ -130,14 +131,21 @@ export default class ShowDesktopExtension extends Extension {
 
 		const position = ['left', 'left', 'center', 'center', 'right', 'right'];
 		const qualifier = [0, 1, 0, 1, 1, -1];
-		const index = this._settings.get_enum('indicator-position');
-		
-		Main.panel.addToStatusArea(
-			`${this.metadata.name} Indicator`, 
-			this._indicator, 
-			qualifier[index], 
-			position[index]
-		);
+		const index = this._settings.get_enum('i');
+
+		const centerBox = Main.panel._centerBox;
+    	const centerBoxChildren = centerBox.get_children();
+
+	    const dateMenuIndex = centerBoxChildren.findIndex(
+	      c => c.child instanceof DateMenu.DateMenuButton ||
+	           c instanceof DateMenu.DateMenuButton
+	    );
+
+	    if (dateMenuIndex !== -1 && position[index] === 'center') {
+	      Main.panel.addToStatusArea(`${this.metadata.name} Indicator`, this._indicator, dateMenuIndex + qualifier[index], position[index]);
+	    } else {
+		  Main.panel.addToStatusArea(`${this.metadata.name} Indicator`, this._indicator, qualifier[index], position[index]);
+	    }
 	}
 
 	previewDesktop(enable) {
